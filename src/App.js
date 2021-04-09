@@ -103,7 +103,7 @@ export default class App extends Component {
                 }
 
                 {this.state.loginStatus===null &&
-                    <p>Loading...</p>
+                    <p>Vvino yükleniyor...</p>
                 }
 
                 </>

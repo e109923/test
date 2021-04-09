@@ -8,24 +8,24 @@ import { MdEmail } from "react-icons/md";
 const Default = (props) => {
     return (
         <Grid container spacing={3}>
-            <Grid item xs={4}>
+            <Grid item md={4}>
                 <Login handler={val => props.handler(val)} />
 
-                <Grid item xs={2}>
+                <Grid item md={2}>
                         <MdSettingsPhone />
                     </Grid>
-                    <Grid item xs={10}>
+                    <Grid item md={10}>
                         0(216) 599 0 777
                     </Grid>
-                    <Grid item xs={2}>
+                    <Grid item md={2}>
                         <MdEmail />
                     </Grid>
-                    <Grid item xs={10}>
+                    <Grid item md={10}>
                         info@mavimor.com.tr
                     </Grid>
             </Grid>
 
-            <Grid item xs={4}>
+            <Grid item md={4}>
                 <p>
                     Bilgisayar destekli bakım yönetim sistemidir. İngilizce adıyla CMMS (Computerized Maintanence Management Systems)
             <br />
@@ -47,7 +47,7 @@ const Default = (props) => {
             </Grid>
 
 
-            <Grid item xs={4}>
+            <Grid item md={4}>
                 <Image src="images/mobil_demo.gif" alt="Demo" fluid />
             </Grid>
 

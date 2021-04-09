@@ -53,39 +53,39 @@ export default class Login extends Component {
             <>
                 <form onSubmit={this.handleSubmitClick}>
 
-                        <Grid item xs={12} style={{textAlign:"center"}}>
+                        <Grid item md={12} style={{textAlign:"center"}}>
                             <Image src="images/logo.png" style={{ height: "100px", width: "100px" }} alt="Logo" />
                         </Grid>
 
-                        <Grid item xs={3}>
+                        <Grid item md={3}>
                             <label htmlFor="txtUsername">E-Posta</label>
                         </Grid>
-                        <Grid item xs={8}>
+                        <Grid item md={8}>
                             <input type="text" id="txtEmail" className="form-control" value={this.state.txtEmail} onChange={this.handleChange} />
                         </Grid>
-                        <Grid item xs={1}>
+                        <Grid item md={1}>
                             &nbsp;
                         </Grid>
 
-                        <Grid item xs={3}>
+                        <Grid item md={3}>
                             <label htmlFor="txtPassword">Şifre</label>
                         </Grid>
-                        <Grid item xs={6}>
+                        <Grid item md={6}>
                             <input type="password" id="txtSifre" className="form-control" value={this.state.txtSifre} onChange={this.handleChange} />
                         </Grid>
-                        <Grid item xs={3}>
+                        <Grid item md={3}>
                             &nbsp;
                         </Grid>
 
-                        <Grid item xs={3}>
+                        <Grid item md={3}>
                             &nbsp;
                         </Grid>
-                        <Grid item xs={6}>
+                        <Grid item md={6}>
                             <Button id="btnGiris"
                                 className="form-control btn-primary"
                                 type="submit">Giriş</Button>
                         </Grid>
-                        <Grid item xs={3}>
+                        <Grid item md={3}>
                             &nbsp;
                         </Grid>
                 </form>
